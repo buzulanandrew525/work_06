@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="elephant">
+        <tr class="elephant__row">
+            <td class="elephant__col">
+                <img src="elephant/head.jpg" alt="head of elephant">
+            </td>
+            <td class="elephant__col">
+                <img src="elephant/body.png" alt="body of elephant">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="world">
+        <tr class="world__row">
+            <td class="world__col">
+                <img src="world/top-left.jpg" alt="Top left of the world">
+            </td>
+            <td class="world__col">
+                <img src="world/top-right.jpg" alt="Top right of the world">
+            </td>
+        </tr>
+        <tr class="world__row">
+            <td colspan="2" class="world__col">
+                <img src="world/top-down.jpg" alt="Top down of the world">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="sheep">
+        <tr class="sheep__row">
+            <td class="sheep__col">
+                <img src="sheep/top-left.jpg" alt="Top left sheep">
+            </td>
+            <td class="sheep__col">
+                <img src="sheep/top-right.jpg" alt="Top right sheep">
+            </td>
+        </tr>
+        <tr class="sheep__row">
+            <td class="sheep__col">
+                <img src="sheep/top-down-right.jpg" alt="Top left down sheep">
+            </td>
+            <td class="sheep__col">
+                <img src="sheep/top-down-left.jpg" alt="Top right sheep">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="cat">
+        <tr class="cat__row">
+            <td rowspan="2" class="cat__col">
+                <img src="cat/left_ear.jpg" alt="">
+            </td>
+            <td rowspan="2" class="cat__col">
+                <img src="cat/right_ear.png" alt="">
+            </td>
+            <td class="cat__col">
+                <img src="cat/miniright_ear.png" alt="">
+            </td>
+        </tr>
+        <tr class="cat__row">
+            <td colspan="2" rowspan="2" class="cat__col">
+                <img src="cat/mini-moustache_right.png" alt="mini-moustache_right">
+            </td>
+        </tr>
+        <tr class="cat__row">
+            <td colspan="2" class="cat__col">
+                <img src="cat/head-cat.png" alt="Head cat">
+            </td>
+        </tr>
+        <tr class="cat__row">
+            <td class="cat__col">
+                <img src="cat/moustache_left.png" alt="">
+            </td>
+            <td colspan="2" class="cat__col">
+                <img src="cat/moustache-right.png" alt="">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="dog">
+        <tr class="dog__row">
+            <td class="dog__col">
+                <img src="dog/left_eye.jpg" alt="left eye dog">
+            </td>
+            <td rowspan="3" class="dog__col">
+                <img src="dog/head.jpg" alt="head dog">
+            </td>
+            <td class="dog__col">
+                <img src="dog/ear.jpg" alt="ear dog">
+            </td>
+        </tr>
+        <tr class="dog__row">
+            <td rowspan="3" class="dog__col">
+                <img src="dog/nose.jpg" alt="nose dog">
+            </td>
+            <td class="dog__col">
+                <img src="dog/tail.jpg" alt="tail dog">
+            </td>
+        </tr>
+        <tr class="dog__row">
+            <td class="dog__col">
+                <img src="dog/body.jpg" alt="body">
+            </td>
+        </tr>
+        <tr class="dog__row">
+            <td colspan="2" class="dog__col">
+                <img src="dog/body left.jpg" alt="body left">
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table class="table">
+        <tbody class="table__tbody">
+            <!-- Перший рядок -->
+            <tr class="table__row">
+                <td colspan="2" class="table__col table__col--main">1</td> <!-- Білий -->
+                <td colspan="2" class="table__col table__col--main">2</td> 
+                <td colspan="2" class="table__col table__col--additional">3</td>
+                <td rowspan="4" class="table__col table__col--main">5</td>
+            </tr>
+            <!-- Другий рядок -->
+            <tr class="table__row">
+                <td class="table__col table__col--main">1</td>
+                <td colspan="3" rowspan="2" class="table__col table__col--secondary">2</td>
+                <td colspan="2" class="table__col table__col--additional">3</td>
+            </tr>
+            <!-- Третій рядок -->
+            <tr class="table__row">
+                <td rowspan="2" class="table__col table__col--main">1</td>
+                <td class="table__col table__col--main">2</td>
+                <td class="table__col table__col--main">3</td>
+            </tr>
+            <!-- Четвертий рядок -->
+            <tr class="table__row">
+                <td colspan="2" rowspan="2" class="table__col table__col--filled">1</td>
+                <td class="table__col table__col--main">2</td>
+                <td colspan="2" class="table__col table__col--main">3</td>
+            </tr>
+            <!-- П'ятий рядок -->
+            <tr class="table__row">
+                <td rowspan="3" class="table__col table__col--additional">1</td>
+                <td class="table__col table__col--main">3</td>
+                <td colspan="2" rowspan="2" class="table__col table__col--unique">4</td>
+                <td rowspan="3" class="table__col table__col--secondary">5</td>
+            </tr>
+            <!-- Шостий рядок -->
+            <tr class="table__row">
+                <td colspan="2" rowspan="2" class="table__col table__col--main">2</td>
+                <td class="table__col table__col--filled">3</td>
+            </tr>
+            <!-- Сьомий рядок -->
+            <tr class="table__row">
+                <td colspan="3" class="table__col table__col--main">3</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

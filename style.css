@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: 1em sans-serif;
+}
+
+body {
+    background-color: bisque;
+}
+
+
+.table {
+    border-collapse: collapse;
+}
+
+table,
+tr,
+td {
+    border-spacing: 0;
+}
+
+table img {
+    vertical-align: middle;
+}
+
+.table__col {
+    border: 1px solid black;
+    padding: 5px 7px;
+    text-align: center;
+}
+
+.table__col--main {
+    background-color: white;
+}
+
+.table__col--additional {
+    background-color: yellow;
+}
+
+.table__col--secondary {
+    background-color: red;
+}
+.table__col--filled {
+    background-color: black;
+    color: white;
+}
+
+.table__col--unique {
+    background-color: blue;
+}
+
